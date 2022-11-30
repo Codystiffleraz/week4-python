@@ -1,5 +1,4 @@
 from flask import Flask, render_template, redirect, url_for, request
-
 from forms import TeamForm, ProjectForm
 from model import db, User, Team, Project, connect_to_db
 
